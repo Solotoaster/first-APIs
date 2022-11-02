@@ -1,4 +1,3 @@
-//Example fetch using pokemonapi.co
 document.querySelector('button').addEventListener('click', getRandomMeme)
 
 let random;
@@ -9,9 +8,6 @@ function getRandomMeme(){
 
 
   // const choice = document.querySelector('input').value
-  // const url = 'https://pokeapi.co/api/v2/pokemon/'+choice
-
-  // let memes = document.querySelector('input').value
 
   fetch(`https://api.imgflip.com/get_memes`)
       .then(res => res.json()) // parse response as JSON
