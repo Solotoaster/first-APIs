@@ -1,2 +1,2 @@
-# Bob's Burgers Exterminator Van - API
-Bob's Burgers Exterminator Van API
+# Randon Meme Generator - API
+Random Meme Generator API
